@@ -1,0 +1,79 @@
+body {
+    background: black;
+}
+.post{
+    background-color: white;
+    width: 400px;
+    height: 580px;
+    margin: auto;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+.topside{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    height: 90%;
+    width: 0%;
+    font-size: 1.8em;
+    margin: 10px 2px 4px 16px;
+}
+.text{
+    height: 90%;
+    width: 72%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.dots{
+    margin: 10px 15px 10px;
+    font-size: 1.8em;
+}
+.icons{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.heart{
+    height: 80%;
+    width: 4%;
+    font-size: 2em;
+    align-self: center;
+    margin: 0px 5px 0px 10px;
+}
+.comment{
+    height: 80%;
+    width: 4%;
+    font-size: 2em;
+    align-self: center;
+    margin: 0px 5px 0px 20px;
+}
+.plane{
+    height: 80%;
+    width: 70%;
+    font-size: 2em;
+    align-self: center;
+    margin: 0px 5px 0px 20px;
+}
+.mark{
+    font-size: 2em;
+    align-self: center;
+    margin: -8px 15px 0px 10px;
+}
+
+.description{
+    width: 95%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 0.9em;
+}
